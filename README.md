@@ -1,15 +1,12 @@
 # Braking_systems
-Utility MATLAB scripts that I used when working on the braking system of the Formula Student race car from Squadra Corse Polito, in 2018, and when writing my MSc thesis, in 2019
+Utility MATLAB scripts that I used when writing my MSc thesis, in 2019, about the braking system of the 2018 Formula Student race car from Squadra Corse Polito.
 
-# Stable release
-This is the first release of some of the scripts that I used when writing my MSc thesis. I am publishing the ones that could be useful to other students facing the design of a braking system.
-
-I have organized and formatted the code so that others (and myself) can understand what they do and perhaps use them later.
+I am publishing the ones that could be useful to other students facing the design of a braking system. However, these are just preliminary analysis tools that help visualize the impact of different parameters on the braking system load repartition and the thermal response of the brake discs.
 
 There are two sets of scripts:
 
 ## Brake rotor convection study
-This can be used in preliminary design to evaluate the thermal properties of the brake disc. This is by no means a precise design tool: the scripts are useful to get insights into the thermal response of the brake discs.
+Study the temperature rise of a brake disc during a single stop and during continuous operation, simulating "N" identical braking maneuvers. There is also an estimation of the brake discs convection coefficient in terms of the vehicle speed, which could be useful to get a rough initial idea of its trend.
 
 ### Single-stop temperature rise
 ![Single_stop_disc_temperature_rise](https://user-images.githubusercontent.com/53271940/116224818-60040d80-a751-11eb-8a0d-7fddd7d1ae09.png)
