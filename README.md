@@ -9,7 +9,7 @@ There are two sets of scripts:
 Study the temperature rise of a brake disc during a single stop and during continuous operation, simulating "N" identical braking maneuvers. There is also an estimation of the brake discs convection coefficient in terms of the vehicle speed, which could be useful to get a rough initial idea of its trend.
 
 ### Single-stop temperature rise
-![Single_stop_disc_temperature_rise](https://user-images.githubusercontent.com/53271940/116224818-60040d80-a751-11eb-8a0d-7fddd7d1ae09.png)
+![Single_stop_disc_temperature_rise](https://github.com/luisdamed/Braking_systems/blob/main/Brake_rotor_convection/Single_stop_disc_temperature_rise.png?raw=true)
 
 
 ### Simulated temperature during continuous braking
@@ -19,7 +19,7 @@ Study the temperature rise of a brake disc during a single stop and during conti
 
 
 ## Brake load repartition study
-Evaluate the distribution of braking forces in the front and rear axle in ideal conditions, and compare with the system response, based on the vehicle data (mass, geometry, hydraulic system components)
+Evaluate the distribution of braking forces in the front and rear axle in ideal conditions, and compare with the system response, based on the vehicle data (mass, geometry, hydraulic system components).
 
 ### Ideal brake force repartition
-![Ideal_braking_force_repartition](https://user-images.githubusercontent.com/53271940/116224623-2501da00-a751-11eb-8694-4b43d36d0cd6.png)
+![Ideal_braking_force_repartition](https://github.com/luisdamed/Braking_systems/blob/main/Brake_load_repartition/Ideal_braking_force_repartition.png?raw=true)

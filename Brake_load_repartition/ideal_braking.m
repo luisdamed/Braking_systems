@@ -207,4 +207,4 @@ text(230,ymax(2)-550,'\mu_x_2','Rotation',0,'FontSize',11,'FontName','Times','Co
 %% Final formatting
 leg1=legend(f(1:length(v)),'40 ','50','60','70','80','90','100','110','Location','northeast','FontSize',8);
 title1 = get(leg1,'Title'); set(title1,'String',{'Speed [km/h]'});
-
+grid minor
