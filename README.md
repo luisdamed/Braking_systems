@@ -13,7 +13,7 @@ Study the temperature rise of a brake disc during a single stop and during conti
 
 
 ### Simulated temperature during continuous braking
-![Disc_temperature_simulation](https://user-images.githubusercontent.com/53271940/116224721-44006c00-a751-11eb-84cc-b2507f284fac.png)
+![Disc_temperature_simulation](https://github.com/luisdamed/Braking_systems/blob/main/Brake_rotor_convection/Disc_temperature_simulation.png?raw=true)
 
 
 
