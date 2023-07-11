@@ -105,25 +105,21 @@ for i=1:length(v)
     f(i)=plot(Fx1_input,FX2(i,:),'Color', cm(i,:));
     hold on
 end
-GRAPH=gcf;
+
 set(gca, 'FontName', 'Times')
 xlabel('-Fx_1 [N]'),ylabel('-Fx_2 [N]')
 hold on
 
-graph = gca;
+leftAxes = gca;
 
 %% Add lines with system response at different balance bar setups
-
-%Create hidden axes for adding the bias labels outside
-bias_labels=axes('Position',[0 0 1 1],'Visible','off'); 
-set(gcf,'CurrentAxes',graph)
+set(gcf,'CurrentAxes',leftAxes)
 bar_ratio=linspace(0.45/0.55,0.65/0.35,5)
 front_bias=linspace(0.45,0.65,length(bar_ratio))
 cm2 = colormap(hot(length(bar_ratio)+2));
     for k=1:length(bar_ratio)
         Tqratio=bar_ratio(k)*(AMCr*frpad*ACf)/(AMCf*rrpad*ACr);
         Fx2_real=Fx1_input/Tqratio;
-            set(gcf,'CurrentAxes',graph)
             f(i+k)=plot(Fx1_input,Fx2_real,'Color','k','LineWidth',.3);
             text(max(Fx1_input)+50,max(Fx2_real),num2str(100*(front_bias(k)),'%g%%'),'FontName','Times','FontSize',10)
     end
