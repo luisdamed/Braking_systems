@@ -27,4 +27,7 @@ I wrote **[an article with a short description of the formulation used](https://
 
 ## Brake rotor convection study
 
-Study the temperature rise of a brake disc during a single stop and during continuous operation, simulating "N" identical braking maneuvers. There is also an estimation of the brake discs convection coefficient in terms of the vehicle speed, which could be useful to get a rough initial idea of its trend.
+An estimation of the brake discs convection coefficient in terms of the vehicle speed, which could be useful to get a rough initial idea of its trend.
+
+You can find a more detailed description in
+**[this blog post, including some of the experimental results](https://medium.com/@luisdamed/computing-the-convection-coefficient-of-a-brake-disc-fe59a98d64b)**
