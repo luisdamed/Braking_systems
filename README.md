@@ -8,7 +8,7 @@ There are two sets of scripts:
 
 ## Brake load repartition study
 
-This script can help be used to evaluate the distribution of braking forces in the front and rear axle, and compare the ideal behavior while braking from different speeds with the actual system response, based on the vehicle data (mass, geometry, hydraulic system components, etc).
+This script can be used to evaluate the distribution of braking forces in the front and rear axle, and compare the ideal behavior while braking from different speeds with the actual system response, based on the vehicle data (mass, geometry, hydraulic system components, etc).
 
 If you are interested in knowing more, **[check out this short explanation of what I did](https://medium.com/@luisdamed/brake-system-load-distribution-study-matlab-approach-2f35b426ee0d)**.
 
